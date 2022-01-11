@@ -7,6 +7,7 @@ import Goals from "./components/goals";
 import JobDescription from "./components/jobDescription";
 import Conclusion from "./components/conclusion";
 import Acknowledgements from "./components/acknowledgements";
+import "./styles/global.scss";
 import "./App.css";
 
 function App() {
@@ -14,12 +15,14 @@ function App() {
 		<div className='App'>
 			<Navbar />
 			<Header />
-			<Introduction />
-			<EmployerInfo />
-			<Goals />
-			<JobDescription />
-			<Conclusion />
-			<Acknowledgements />
+			<main className='content-section'>
+				<Introduction />
+				<EmployerInfo />
+				<Goals />
+				<JobDescription />
+				<Conclusion />
+				<Acknowledgements />
+			</main>
 		</div>
 	);
 }

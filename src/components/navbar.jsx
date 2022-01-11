@@ -3,14 +3,17 @@ import React from "react";
 
 export default function navbar() {
 	return (
-		<div className='navbar-container'>
-			<nav class='navbar navbar-expand-lg navbar-light bg-light'>
-				<div class='container-fluid'>
-					<a class='navbar-brand' href='#'>
+		<div
+			className='navbar-container'
+			style={{ position: "sticky", top: "0", left: "0" }}
+		>
+			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+				<div className='container-fluid'>
+					<a className='navbar-brand' href='#header'>
 						Navbar
 					</a>
 					<button
-						class='navbar-toggler'
+						className='navbar-toggler'
 						type='button'
 						data-bs-toggle='collapse'
 						data-bs-target='#navbarNavAltMarkup'
@@ -18,33 +21,37 @@ export default function navbar() {
 						aria-expanded='false'
 						aria-label='Toggle navigation'
 					>
-						<span class='navbar-toggler-icon'></span>
+						<span className='navbar-toggler-icon'></span>
 					</button>
-					<div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
-						<div class='navbar-nav'>
+					<div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+						<div className='navbar-nav'>
 							{/*Object.keys(wtr).map((section) => {
 								return (
-									<a class='nav-link active' aria-current='page' href='#'>
+									<a className='nav-link active' aria-current='page' href='#'>
 										{section}
 									</a>
 								);
 							})*/}
-							<a class='nav-link active' aria-current='page' href='#'>
+							<a
+								className='nav-link active'
+								aria-current='page'
+								href='#introduction'
+							>
 								Introduction
 							</a>
-							<a class='nav-link' href='#'>
+							<a className='nav-link' href='#employerInfo'>
 								Employer Information
 							</a>
-							<a class='nav-link' href='#'>
+							<a className='nav-link' href='#goals'>
 								Goals
 							</a>
-							<a class='nav-link' href='#'>
+							<a className='nav-link' href='#jobDescription'>
 								Job Description
 							</a>
-							<a class='nav-link' href='#'>
+							<a className='nav-link' href='#conclusion'>
 								Conclusion
 							</a>
-							<a class='nav-link' href='#'>
+							<a className='nav-link' href='#acknowledgements'>
 								Acknowledgements
 							</a>
 						</div>
