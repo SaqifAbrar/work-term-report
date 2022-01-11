@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/work-term-report/static/css/main.73681ef1.css",
-    "main.js": "/work-term-report/static/js/main.0dfe8444.js",
+    "main.css": "/work-term-report/static/css/main.cc58a529.css",
+    "main.js": "/work-term-report/static/js/main.0a6ae12a.js",
     "static/js/787.4688fb9b.chunk.js": "/work-term-report/static/js/787.4688fb9b.chunk.js",
-    "static/media/kenna-banner.png": "/work-term-report/static/media/kenna-banner.f4edd85010dc5848fb95.png",
+    "static/media/kenna-banner.gif": "/work-term-report/static/media/kenna-banner.146fa476775edfb17b7d.gif",
     "index.html": "/work-term-report/index.html",
-    "main.73681ef1.css.map": "/work-term-report/static/css/main.73681ef1.css.map",
-    "main.0dfe8444.js.map": "/work-term-report/static/js/main.0dfe8444.js.map",
+    "main.cc58a529.css.map": "/work-term-report/static/css/main.cc58a529.css.map",
+    "main.0a6ae12a.js.map": "/work-term-report/static/js/main.0a6ae12a.js.map",
     "787.4688fb9b.chunk.js.map": "/work-term-report/static/js/787.4688fb9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73681ef1.css",
-    "static/js/main.0dfe8444.js"
+    "static/css/main.cc58a529.css",
+    "static/js/main.0a6ae12a.js"
   ]
 }
