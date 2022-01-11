@@ -1,4 +1,5 @@
 import React from "react";
+import wtr from "../work-term-content.json";
 
 export default function navbar() {
 	return (
@@ -21,22 +22,30 @@ export default function navbar() {
 					</button>
 					<div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
 						<div class='navbar-nav'>
+							{/*Object.keys(wtr).map((section) => {
+								return (
+									<a class='nav-link active' aria-current='page' href='#'>
+										{section}
+									</a>
+								);
+							})*/}
 							<a class='nav-link active' aria-current='page' href='#'>
-								Home
+								Introduction
 							</a>
 							<a class='nav-link' href='#'>
-								Features
+								Employer Information
 							</a>
 							<a class='nav-link' href='#'>
-								Pricing
+								Goals
 							</a>
-							<a
-								class='nav-link disabled'
-								href='#'
-								tabindex='-1'
-								aria-disabled='true'
-							>
-								Disabled
+							<a class='nav-link' href='#'>
+								Job Description
+							</a>
+							<a class='nav-link' href='#'>
+								Conclusion
+							</a>
+							<a class='nav-link' href='#'>
+								Acknowledgements
 							</a>
 						</div>
 					</div>
