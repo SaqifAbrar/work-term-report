@@ -1,5 +1,5 @@
 import React from "react";
-import wtr from "../work-term-content.json";
+//import wtr from "../work-term-content.json";
 
 export default function navbar() {
 	return (
