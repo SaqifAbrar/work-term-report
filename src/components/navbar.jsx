@@ -5,17 +5,12 @@ export default function navbar() {
 	return (
 		<div
 			className='navbar-container'
+			id='#navbar'
 			style={{ position: "sticky", top: "0", left: "0" }}
 		>
 			<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
 				<div className='container-fluid'>
-					<a
-						className='navbar-brand'
-						href='#header'
-						onClick={() => {
-							window.scrollTo(0, 0);
-						}}
-					>
+					<a className='navbar-brand' href='#header'>
 						Saqif's Reflection Report
 					</a>
 					<button
