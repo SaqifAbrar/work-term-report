@@ -7,10 +7,16 @@ export default function navbar() {
 			className='navbar-container'
 			style={{ position: "sticky", top: "0", left: "0" }}
 		>
-			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+			<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
 				<div className='container-fluid'>
-					<a className='navbar-brand' href='#header'>
-						Navbar
+					<a
+						className='navbar-brand'
+						href='#header'
+						onClick={() => {
+							window.scrollTo(0, 0);
+						}}
+					>
+						Saqif's Reflection Report
 					</a>
 					<button
 						className='navbar-toggler'
@@ -25,18 +31,7 @@ export default function navbar() {
 					</button>
 					<div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
 						<div className='navbar-nav'>
-							{/*Object.keys(wtr).map((section) => {
-								return (
-									<a className='nav-link active' aria-current='page' href='#'>
-										{section}
-									</a>
-								);
-							})*/}
-							<a
-								className='nav-link active'
-								aria-current='page'
-								href='#introduction'
-							>
+							<a className='nav-link' aria-current='page' href='#introduction'>
 								Introduction
 							</a>
 							<a className='nav-link' href='#employerInfo'>
